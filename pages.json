@@ -1,0 +1,427 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/login/login",
+			"style" :                                                                                    
+			{
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+			
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"backgroundColor": "#FFFFFF",
+					"scrollIndicator": false,
+					"titleNView": {
+						"searchInput": {
+							"autoFocus": false,
+							"align": "left",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "4px",
+							"placeholder": "智能积木 越野四驱车",
+							"placeholderColor": "c0c0c0",
+							"disabled": true
+						},
+						"buttons": [
+							{
+								"float": "left",
+								"color": "#989898",
+								"colorPressed": "#FD6801",
+								"fontSize": "30px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue619"
+							},
+							{
+								"float": "right",
+								"color": "#989898",
+								"colorPressed": "#FD6801",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue636"
+							}
+						]
+					}
+				},
+				"enablePullDownRefresh": true
+				
+			}
+		}
+		,{
+			"path": "pages/category/category",
+			"style": {
+				"app-plus": {
+					"backgroundColor": "#FFFFFF",
+					"scrollIndicator": false,
+					"titleNView": {
+						"searchInput": {
+							"autoFocus": false,
+							"align": "left",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "4px",
+							"placeholder": "智能积木 越野四驱车",
+							"placeholderColor": "c0c0c0",
+							"disabled": true
+						},
+						"buttons": [
+							{
+								"float": "right",
+								"color": "#989898",
+								"colorPressed": "#FD6801",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue636"
+							}
+						]
+					}
+				}
+				// "enablePullDownRefresh": true
+				
+			}
+		}
+	    ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "app-plus": {
+					"titleNView": false,
+					"bounce": false
+				}
+            }
+            
+        },
+		{
+		    "path" : "pages/search/search",
+		    "style": {
+		    	"app-plus": {
+		    		"backgroundColor": "#FFFFFF",
+		    		"scrollIndicator": false,
+		    		"titleNView": {
+		    			"searchInput": {
+		    				"autoFocus": false,
+		    				"align": "left",
+		    				"backgroundColor": "#F7F7F7",
+		    				"borderRadius": "4px",
+		    				"placeholder": "智能积木 越野四驱车",
+		    				"placeholderColor": "c0c0c0",
+		    				"disabled": false
+		    			},
+		    			"buttons": [
+		    				{
+		    					"float": "right",
+		    					"color": "#989898",
+		    					"colorPressed": "#FD6801",
+		    					"fontSize": "16px",
+		    					"text": "搜索"
+		    				}
+		    			]
+		    		}
+		    	}
+		    	// "enablePullDownRefresh": true
+		    	
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/search-list/search-list",
+            "style": {
+            	"app-plus": {
+            		"backgroundColor": "#FFFFFF",
+            		"scrollIndicator": false,
+            		"titleNView": {
+            			"searchInput": {
+            				"autoFocus": false,
+            				"align": "left",
+            				"backgroundColor": "#F7F7F7",
+            				"borderRadius": "4px",
+            				"placeholder": "智能积木 越野四驱车",
+            				"placeholderColor": "c0c0c0",
+            				"disabled": false
+            			},
+            			"buttons": [
+            				{
+            					"float": "right",
+            					"color": "#989898",
+            					"colorPressed": "#FD6801",
+            					"fontSize": "16px",
+            					"text": "搜索"
+            				}
+            			]
+            		}
+            	}
+            	// "enablePullDownRefresh": true
+            	
+            }
+                
+            },
+            {
+                "path" : "pages/search/search",
+                "style": {
+                	"app-plus": {
+                		"backgroundColor": "#FFFFFF",
+                		"scrollIndicator": false,
+                		"titleNView": {
+                			"searchInput": {
+                				"autoFocus": false,
+                				"align": "left",
+                				"backgroundColor": "#F7F7F7",
+                				"borderRadius": "4px",
+                				"placeholder": "智能积木 越野四驱车",
+                				"placeholderColor": "c0c0c0",
+                				"disabled": false
+                			},
+                			"buttons": [
+                				{
+                					"float": "right",
+                					"color": "#989898",
+                					"colorPressed": "#FD6801",
+                					"fontSize": "16px",
+                					"text": "搜索"
+                				}
+                			]
+                		}
+                	}
+                	// "enablePullDownRefresh": true
+                	
+                }
+            
+        }
+        ,{
+            "path" : "pages/shopDetail/shopDetail",
+            "style" :                                                                                    
+            {
+                "app-plus": {
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView": {
+						"type":"transparent",
+						"buttons": [
+							{
+								"type": "menu"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/shop-evaluate/shop-evaluate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品评价",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator":"none",
+					"bounce":"none"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/userInfo/userInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改资料",
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                	"scrollIndicator":"none",
+                	"bounce":"none"
+                }
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地址列表",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView": {
+						"buttons": [
+							{
+								"float": "right",
+								"color": "#999999",
+								"colorPressed": "#BBBBBB",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue620",
+								"fontSize": "22px"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/editAddress/editAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑收货地址",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator":"none",
+					"bounce":"false",
+					"titleNView": {
+						"buttons": [
+							{
+								"float": "right",
+								"color": "#333333",
+								"colorPressed": "#FD6801",
+								"fontSize": "16px",
+								"text": "删除"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+            	"navigationStyle": "custom",
+            	"app-plus": {
+            		"scrollIndicator": "none",
+            		"bounce": "none"
+            	}
+            }
+            
+        }
+        ,{
+            "path" : "pages/settlement/settlement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单配送至",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FD6801",
+				"navigationBarTextStyle": "white"
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/invoice/invoice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发票",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/payType/payType",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "付款方式",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/coupon/coupon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "优惠券",
+                "enablePullDownRefresh": true,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderDetail/orderDetail",
+            "style" :                                                                                    
+            {
+                "app-plus": {
+            		"scrollIndicator":"none",
+            		"bounce":"none",
+            		"titleNView": {
+            			"type":"transparent"
+            		}
+            	}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"selectedColor": "#FD6801",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/home.png",
+				"selectedIconPath":"static/image/home-active.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "static/image/category.png",
+				"selectedIconPath":"static/image/category-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/image/cart.png",
+				"selectedIconPath":"static/image/cart-active.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/image/user.png",
+				"selectedIconPath":"static/image/user-active.png"
+			}
+		]
+	}
+}
